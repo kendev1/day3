@@ -5,6 +5,8 @@
 <title>Homer's Online Music Shop</title>
 <link rel="stylesheet" href="css/main.css" />
 <link rel="shortcut icon" href="images/homer.ico" />
+<link rel="stylesheet" href="css/nav.css" />
+</head>
 <body>
 
 <header>
@@ -12,25 +14,34 @@
    <hgroup>
 	 <h1>Homer's Music Store</h1>
 	 <h2>Rock On!</h2>
-	 <nav>
-	 <a href="index.html">Home</a>
-	 <a href="multi_column.html">Layout</a>
-	 <a href="table.html">Tables</a>
-	 <a href="images.html">Graphics</a>
-	 <a href="video.html">Multimedia</a>
-	 <a href="email.html">Forms</a>
-	 <a href="product.php">Products</a>
-	 <a href="geolocation.html">Stuff</a>
+	</hgroup> 
+	<nav>
+	 <ul id="main">
+	   <li><a href="index.html">Home</a></li>
+	   <li><a href="multi_column.html">Layout</a>
+	   		<ul>
+	   			<li><a href="two_column_left.html">2 Column Float Left</a></li>
+	   			<li><a href="two_column_right.html">2 Column Float Right</a></li>
+	   			<li><a href="three_column.html">3 Column Float</a></li>
+	   		</ul>
+	   	</li>		
+	   <li><a href="table.html">Tables</a></li>
+	   <li><a href="images.html">Graphics</a></li>
+	   <li><a href="video.html">Multimedia</a></li>
+	   <li><a href="email_form.html">Forms</a></li>
+	   <li><a href="product.php">Products</a></li>
+	   <li><a href="geolocation.html">Stuff</a></li>
+	 </ul>
 	 </nav>
-   </hgroup>
+
 </header>
-<article>
+
 
 <section id="container">
 <header id="top">
-   <h1 > Everything Is On Sale for Halloween </h1>
-   </header>
-   <article>
+   <h1> Everything Is On Sale for Halloween </h1>
+</header>
+<article>
    <h2>Home Page</h2>
    <p>
    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -41,8 +52,9 @@
    <h2>My guarantee</h2>
    <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.
    <strong>No questions asked!</strong></p>
-   </article>
+</article>   
 </section>
+
 <footer>
 	<p>&copy; 2012 Homer J. Simpson</p>
 </footer>
